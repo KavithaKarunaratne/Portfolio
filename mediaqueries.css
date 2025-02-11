@@ -48,7 +48,9 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
+    display: flex;
+
+    height: 40vh;
     margin-bottom: 0;
   }
   article {
@@ -88,6 +90,7 @@
   }
   .title {
     font-size: 2rem;
+    text-align: center;
   }
   .text-container {
     text-align: justify;
@@ -104,8 +107,6 @@
   .text-container {
     padding: 0 1rem;
   }
-}
-@media (max-width: 768px) {
   .icon.arrow {
     width: 40px; /* Smaller size for mobile */
     bottom: 15px;
