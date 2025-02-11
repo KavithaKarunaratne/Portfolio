@@ -80,6 +80,7 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 .menu-links {
+  z-index: 1;
   position: absolute;
   top: 100%;
   right: 0;
