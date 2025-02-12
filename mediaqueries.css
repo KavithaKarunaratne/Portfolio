@@ -4,7 +4,12 @@
     margin-bottom: 6rem;
   }
   .about-containers {
+    display: flex;
     flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
   }
 }
 
@@ -15,16 +20,16 @@
   #hamburger-nav {
     display: flex;
   }
-  #skills,
+  #skill,
   .skill-details-container {
     margin-top: 2rem;
   }
   #profile,
   .section-container {
-    height: fit-content;
+    display: block;
   }
   .arrow {
-    display: block;
+    display: none;
   }
   section,
   .section-container {
@@ -33,7 +38,7 @@
   section {
     margin: 0 5%;
   }
-  .section_pic-container {
+  .section__pic-container {
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
@@ -42,15 +47,14 @@
     margin-top: 0;
   }
 }
+
 @media screen and (max-width: 600px) {
   #contact,
   footer {
     height: 40vh;
   }
   #profile {
-    display: flex;
-
-    height: 40vh;
+    height: 83vh;
     margin-bottom: 0;
   }
   article {
@@ -72,7 +76,7 @@
   .nav-links li a {
     font-size: 1rem;
   }
-  .skill-sub-title {
+  .experience-sub-title {
     font-size: 1.25rem;
   }
   .logo {
@@ -87,29 +91,13 @@
     width: auto;
     height: 46vh;
     justify-content: center;
+    margin-bottom: 5rem;
   }
+
   .title {
     font-size: 2rem;
-    text-align: center;
   }
   .text-container {
     text-align: justify;
-  }
-}
-@media screen and (max-width: 768px) {
-  .section_pic-container {
-    width: 250px;
-    height: 250px;
-  }
-  .title {
-    font-size: 1.75rem;
-  }
-  .text-container {
-    padding: 0 1rem;
-  }
-  .icon.arrow {
-    width: 40px; /* Smaller size for mobile */
-    bottom: 15px;
-    right: 15px;
   }
 }

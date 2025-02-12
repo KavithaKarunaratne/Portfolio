@@ -162,6 +162,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  color: black;
 }
 #socials-container {
   display: flex;
@@ -169,16 +170,19 @@ section {
   margin-top: 1rem;
   gap: 1rem;
 }
+.iconup {
+  width: 35px;
+  height: auto;
+}
 /*ICONS*/
 .icon {
   cursor: pointer;
-  height: 2rem;
 }
 /*BUTTONS*/
 .btn-container {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 15px;
 }
 .btn {
   font-weight: 600;
@@ -189,7 +193,7 @@ section {
 }
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1 rem solid;
+  border: rgb(53, 53, 53) 0.01rem solid;
 }
 .btn-color-1:hover,
 .btn-color-2:hover {
@@ -208,9 +212,6 @@ section {
 }
 .btn-color-2:hover {
   border: rgb(255, 255, 255) o.1 rem solid;
-}
-.btn-container {
-  gap: 1rem;
 }
 
 /*ABOUT SECTION*/
@@ -271,13 +272,13 @@ section {
   text-align: center;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 4rem;
+  gap: 2.5rem;
   justify-content: space-around;
 }
 .skill-img {
   background-color: #fff;
-  padding: 15px;
-  margin: 25px auto;
+  padding: 3px;
+  margin: 6px 6px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -292,7 +293,7 @@ section {
   gap: 2rem;
 }
 
-.skill-sub-title {
+.skill-title {
   color: rgb(85, 85, 85);
   font-weight: 300;
   font-size: 1.75rem;
@@ -333,6 +334,7 @@ section {
   height: 70vh;
 }
 .contact-info-upper-container {
+  gap: 1rem;
   display: flex;
   justify-content: center;
   border-radius: 2rem;
@@ -353,6 +355,8 @@ section {
   font-size: larger;
 }
 .contact-icon {
+  width: 30px;
+  height: auto;
   cursor: default;
 }
 /*FOOTER SECTION*/
