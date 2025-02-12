@@ -173,6 +173,7 @@ section {
 .iconup {
   width: 35px;
   height: auto;
+  cursor: pointer;
 }
 /*ICONS*/
 .icon {
